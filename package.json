@@ -1,0 +1,16 @@
+{
+    "name": "learn_jest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "sum.js",
+    "dependencies": {
+        "jest": "^27.4.5"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "jest --watchAll --coverage"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
