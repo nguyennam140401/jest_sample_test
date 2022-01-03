@@ -10,7 +10,7 @@ const students = [
         id: 2,
         name: 'Nguyễn Văn ',
         age: 22,
-        country: 'Viet Nam',
+        country: 'Trung Quoc',
         point: 24,
     },
     {
