@@ -2,6 +2,9 @@ const ExcelJS = require('exceljs')
 const workbook = new ExcelJS.Workbook()
 var table
 var arr = []
+
+let container
+
 beforeEach(() => {
     workbook.xlsx.readFile('a.xlsx').then((data) => {
         table = data.getWorksheet().getSheetValues()
@@ -14,6 +17,10 @@ beforeEach(() => {
         }
         console.log(arr)
     })
+})
+
+afterEach(() => {
+    console.log('done')
 })
 
 test('sum ', () => {
